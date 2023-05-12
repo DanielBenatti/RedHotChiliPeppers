@@ -4,14 +4,14 @@
     margin: auto;
 }
 h1{
-    font-size: 40%%;
+    font-size: x-large;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
     padding: 2%;
 }
 h2{
-    font-size: 30%;
+    font-size: x-large;
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: white;
@@ -30,6 +30,13 @@ p{
     padding-right: 3%;
 }
 .Album{
-    padding top: 3%;
-    padding left: 10%
+    padding-top: 3%;
+    padding-left: 10%;
+}
+header{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2%;
 }
