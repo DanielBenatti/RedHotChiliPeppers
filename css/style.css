@@ -39,3 +39,25 @@ header{
     color: white;
     padding: 2%;
 }
+
+a:link{
+    color: inherit;
+}
+link:visited{
+    color: inherit;
+}
+link:hover{
+    color: red;
+}
+link:active{
+    color: black;
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+.col-2{
+    width: 16,66%;
+}
