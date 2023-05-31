@@ -61,3 +61,11 @@ link:active{
 .col-2{
     width: 16,66%;
 }
+@media (max-width: 600px) {
+    .linha {
+      flex-direction: column;
+    }
+    .col-6 {
+        width: 100%;
+    }
+}
