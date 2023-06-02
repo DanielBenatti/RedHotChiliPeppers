@@ -73,3 +73,18 @@ link:active{
         width: 100%;
     }
 }
+.card{
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    width: 90%;
+}
+.img-card{
+    border-style: double;
+    border-width: 10px;
+    border-color: black;
+    width: 90%;
+}
+a:hover{
+    
+}
