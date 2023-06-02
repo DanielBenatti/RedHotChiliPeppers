@@ -57,9 +57,13 @@ link:active{
     display: flex;
     flex-flow: row wrap;
     text-align: center;
+    padding: 8%;
 }
 .col-2{
     width: 16,66%;
+    text-align: center;
+    padding-left: 3%;
+    padding-top: 3%;
 }
 @media (max-width: 600px) {
     .linha {
