@@ -1,6 +1,5 @@
 .banner1{
-    width: auto;
-    margin: auto;
+    width: 65%;
 }
 .banner2{
     width: 100%;
@@ -34,6 +33,9 @@ p{
 .Lista{
     padding-top: 3%;
     padding-left: 10%;
+}
+.lista.members{
+    
 }
 header{
     font-size: x-large;
@@ -119,7 +121,7 @@ audio{
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-image: linear-gradient(to bottom, #dd1818, #333333);
+    background-image: linear-gradient(to bottom, #dd1818, black);
     color: #333;
     text-decoration: none;
     border: none;
@@ -130,12 +132,13 @@ audio{
 }
   
 .button:hover {
-    background-image: linear-gradient(to bottom, #333333, #dd1818);
+    background-image: linear-gradient(to bottom, black, #dd1818);
 }
   
 .button:last-child {
     margin-right: 0;
 }
+
 
 
 
