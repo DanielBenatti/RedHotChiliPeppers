@@ -44,10 +44,10 @@ header{
 }
 
 a:link{
-    color: inherit;
+    color: white;
 }
 link:visited{
-    color: inherit;
+    color: white;
 }
 link:hover{
     color: red;
@@ -68,12 +68,15 @@ link:active{
     text-align: center;
     padding-left: 3%;
     padding-top: 3%;
+
+    border-style: double;
+    border-width: 10%;
 }
 @media (max-width: 600px) {
     .linha {
       flex-direction: column;
     }
-    .col-6 {
+    .col-2 {
         width: 100%;
     }
 }
@@ -93,17 +96,48 @@ link:active{
 .tabela{
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
-    width: 100%;
-    
+    width: 40%;
+    margin: auto;
 }
 td, th{
     border-top: 1px solid aliceblue;
     padding: 3%;
     color: aliceblue;
 }
+td{
+    font-weight:bold;
+}
 audio{
     height: 30px;
 }
+.img-card{
+    box-shadow: 2px 72px 5px #dd1818;
+}
+.card{
+    background-color: black;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(to bottom, #dd1818, #333333);
+    color: #333;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    display: inline-block;
+    color: white;
+}
+  
+.button:hover {
+    background-image: linear-gradient(to bottom, #333333, #dd1818);
+}
+  
+.button:last-child {
+    margin-right: 0;
+}
+
+
 
 
 
