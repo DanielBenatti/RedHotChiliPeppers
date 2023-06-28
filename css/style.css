@@ -115,6 +115,11 @@ audio{
 .img-card{
     box-shadow: 2px 72px 5px #dd1818;
 }
+@media (max-width: 600px){
+    .img-card.up{
+        box-shadow: 2px 50px 5px #dd1818;
+    }
+}
 .card{
     background-color: black;
 }
@@ -122,15 +127,19 @@ audio{
     display: inline-block;
     padding: 10px 20px;
     background-image: linear-gradient(to bottom, #dd1818, black);
-    color: #333;
     text-decoration: none;
-    border: none;
     border-radius: 4px;
     margin-right: 10px;
-    display: inline-block;
     color: white;
 }
-  
+@media (max-width: 600px){
+    .button{
+        display: flow-root;
+        width: 30%;
+        margin: auto;
+    }
+}
+
 .button:hover {
     background-image: linear-gradient(to bottom, black, #dd1818);
 }
