@@ -1,4 +1,4 @@
 # https://danielbenatti.github.io/RedHotChiliPeppers
 
-# https://danielbenatti.github.io/RedHotChiliPeppers/members.html
+# https://danielbenatti.github.io/RedHotChiliPeppers/positions.html
 
