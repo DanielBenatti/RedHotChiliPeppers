@@ -25,6 +25,13 @@ h2{
 body{
     background-color: black;
 }
+header{
+    font-size: x-large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 2%;
+}
 .container{
     color: white;
 }
@@ -41,13 +48,7 @@ p{
 .lista.members{
     
 }
-header{
-    font-size: x-large;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    padding: 2%;
-}
+
 
 a:link{
     color: white;
@@ -130,7 +131,6 @@ audio{
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-image: linear-gradient(to bottom, #dd1818, black);
     text-decoration: none;
     border-radius: 4px;
     margin-right: 10px;
@@ -150,6 +150,17 @@ audio{
   
 .button:last-child {
     margin-right: 0;
+}
+
+.logo{
+    position: fixed;
+    padding-right: 100%;
+    text-align: center;
+}
+
+.bug{
+    position: fixed;
+    right: 2%;
 }
 
 
