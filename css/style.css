@@ -154,14 +154,13 @@ audio{
 
 .logo{
     position: fixed;
-    padding-right: 100%;
-    text-align: center;
 }
 
 .bug{
     position: fixed;
     right: 2%;
 }
+
 
 
 
